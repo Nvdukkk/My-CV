@@ -1,6 +1,5 @@
 "use client";
 
-import { ChangeEventHandler, InputHTMLAttributes } from "react";
 import "./toggle.css";
 import React from "react";
 interface ToggleProps {

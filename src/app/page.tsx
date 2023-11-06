@@ -1,12 +1,16 @@
 "use client";
 import ToggleSwitch from "@/component/toggle";
-
+import { useState } from "react";
 export default function Home() {
+  const [vn, setVn] = useState(true);
   return (
-    <ToggleSwitch
-      id="lang"
-      onChange={(e) => console.log(e)}
-      optionLabels={["VN", "EN"]}
-    />
+    <div className="container">
+      <p>Chọn ngôn ngữ</p>
+      <ToggleSwitch
+        id="lang"
+        onChange={(e) => setVn(e)}
+        optionLabels={["VN", "EN"]}
+      />
+    </div>
   );
 }

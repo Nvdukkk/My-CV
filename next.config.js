@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+import withTmInitializer from "next-transpile-modules";
+const nextConfig = { withTmInitializer };
 
-module.exports = nextConfig
+module.exports = nextConfig;
