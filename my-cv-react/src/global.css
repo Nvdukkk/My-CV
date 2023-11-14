@@ -58,3 +58,13 @@ code {
 .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
   right: 0px;
 }
+
+.avatar{
+  
+  background-image: url('../public/image/avatar.jpg');
+  background-size: cover;
+  background-position: center center;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+  width: 100%;
+  height: 200px;
+}
